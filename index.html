@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sped's Assets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <h2>Sped's Assets</h2>
+        <ul>
+            <li><a href="#" onclick="showPage('home')">Home</a></li>
+            <li><a href="#" onclick="showPage('shop')">Products</a></li>
+            <li><a href="#" onclick="showPage('cart')">Cart</a></li>
+            <li><a href="#" onclick="showPage('settings')">Settings</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div id="home" class="page active">
+            <h1>Home</h1>
+            <p>Welcome to Sped's Assets! Explore our products and find what you may want. We make unity assets for you to enjoy</p>
+        </div>
+        <div id="shop" class="page">
+            <h1>Products</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="WASD.png" alt="Product 1">
+                    <h3>WASD</h3>
+                    <p>Move around your gorilla player using WASD keys.</p>
+                    <span>$2.99</span>
+                    <br>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.q3GRNS6GfdNeR_G4YgCLTgHaCY?rs=1&pid=ImgDetMain" alt="Product 2">
+                    <h3>Anti Cheat</h3>
+                    <p>Protects your game from hackers.</p>
+                    <span>$4.99</span>
+                    <br>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Product 3">
+                    <h3>Computer System</h3>
+                    <p>Gorilla Tag Like Computer Comes With (Name, Room, and Color Tabs).</p>
+                    <span>$6.99</span>
+                    <br>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div id="cart" class="page">
+            <h1>Cart</h1>
+            <div id="cart-items">
+            </div>
+            <div id="cart-total">
+                <h2>Total: $<span id="total-price">0.00</span></h2>
+            </div>
+            <button id="checkout-button">Checkout</button>
+        </div>
+        
+        <div id="settings" class="page">
+            <h1>Settings</h1>
+            <p>Adjust your preferences here.</p>
+            <label>
+                <input type="button" id="darkModeToggle">
+                Enable Dark Mode
+            </label>
+        </div>        
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Sped's Assets. Made By Speedy.</p>
+            <ul class="footer-links">
+                <li><a href="https://discord.gg/NA455BkaqW" target="_blank">Support Server</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
