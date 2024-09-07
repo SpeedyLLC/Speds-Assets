@@ -5,10 +5,6 @@ function showPage(pageId) {
     document.getElementById(pageId).classList.add('active');
 }
 
-document.getElementById("checkout-button").addEventListener("click", function() {
-        window.location.href = "https://your-url-here.com";
-    });
-
 const button = document.getElementById('darkModeToggle');
         let darkModeEnabled = false;
 
@@ -89,7 +85,7 @@ const button = document.getElementById('darkModeToggle');
         }
         
         document.getElementById('checkout-button').addEventListener('click', () => {
-            alert('Proceed to checkout');
+            window.location.href = "https://your-url-here.com";
         });
         
         document.querySelectorAll('.product button').forEach((button, index) => {
