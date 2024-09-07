@@ -85,8 +85,8 @@ const button = document.getElementById('darkModeToggle');
         }
         
         document.getElementById("checkout-button").addEventListener("click", () => {
-    window.location.href = 'https://cash.app/$MNShad0w';
-});
+            window.location.href = 'https://cash.app/$MNShad0w';
+        });
 
         
         document.querySelectorAll('.product button').forEach((button, index) => {
