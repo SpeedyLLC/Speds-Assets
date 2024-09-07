@@ -5,6 +5,10 @@ function showPage(pageId) {
     document.getElementById(pageId).classList.add('active');
 }
 
+document.getElementById("checkout-button").addEventListener("click", function() {
+        window.location.href = "https://your-url-here.com";
+    });
+
 const button = document.getElementById('darkModeToggle');
         let darkModeEnabled = false;
 
