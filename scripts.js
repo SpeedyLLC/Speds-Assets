@@ -85,7 +85,7 @@ const button = document.getElementById('darkModeToggle');
         }
         
         document.getElementById("checkout-button").addEventListener("click", () => {
-    window.location.href = 'https://www.yourcheckoutlink.com';
+    window.location.href = 'https://cash.app/$MNShad0w';
 });
 
         
