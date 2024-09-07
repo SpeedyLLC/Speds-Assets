@@ -84,9 +84,10 @@ const button = document.getElementById('darkModeToggle');
             totalPriceElement.textContent = total.toFixed(2);
         }
         
-        document.getElementById("checkout-button").addEventListener("click", () {
-            alert("Test");
-    });
+        document.getElementById("checkout-button").addEventListener("click", () => {
+    window.location.href = 'https://www.yourcheckoutlink.com';
+});
+
         
         document.querySelectorAll('.product button').forEach((button, index) => {
             button.addEventListener('click', () => addToCart(index + 1));
