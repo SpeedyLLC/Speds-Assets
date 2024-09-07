@@ -21,7 +21,7 @@ const button = document.getElementById('darkModeToggle');
         const products = [
             { id: 1, name: 'WASD', price: 2.99 },
             { id: 2, name: 'Anti Cheat', price: 4.99 },
-            { id: 3, name: 'Computer System', price: 6.99 }
+            { id: 3, name: 'Applab Page', price: 8.99 }
         ];
         
         function addToCart(productId) {
